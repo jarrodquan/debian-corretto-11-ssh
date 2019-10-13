@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  webapp:
+    build: 
+      context: ./context
+      args:
+        ROOT_PASSWORD: 123456
+    image: debian-corretto-11-ssh:latest
