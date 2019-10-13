@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e
-
-echo 'Hello world!'
+unset DEBIAN_FRONTEND
 
 /usr/sbin/sshd -D
